@@ -18,7 +18,7 @@ import ObjectRepository.HomePage;
 import ObjectRepository.OrganizationPage;
 @Listeners(ListenerImplementation.class)
 
-public class CreateOrganization extends Baseclass {
+public class CreateOrganizationTest extends Baseclass {
 	@Test
 	public void Create() throws EncryptedDocumentException, IOException {
 		HomePage hp=new HomePage(driver);
